@@ -1,6 +1,6 @@
 <?php
 
-$db = new mysqli('localhost', 'root', '', 'db');
+$db = new mysqli('localhost', 'root', '', 'book_catalog');
 
 $sql = "SELECT * FROM person";
 
